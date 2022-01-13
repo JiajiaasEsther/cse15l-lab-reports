@@ -1,5 +1,5 @@
 hello~~~
 # Here we go
-*just wanna share a photo*
+*just wanna share a link of ucsd*
 
-![Image](![smiley-with-heart-shape-hand-sign-cute-vector-21917295](https://user-images.githubusercontent.com/97696711/149395489-dd8380ea-8c98-491d-aff0-316fe4d14386.jpeg))
+[Link](https://students.ucsd.edu/)
