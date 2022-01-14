@@ -1,8 +1,8 @@
 
-The introduction of logging into a course-specific account.
+#The introduction of logging into a course-specific account.
 ---
 
-__What we are going to do:
+##What we are going to do:
 
 *Installing VScode
 *Remotely Connecting
