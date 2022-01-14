@@ -16,7 +16,4 @@
 **Install VSCode**
 
 Visit [Visual Studio Code](https://code.visualstudio.com/) website. Follow the instructions to download and install it on your computer.
-![Example](<img width="1280" alt="install VSCode" src="https://user-images.githubusercontent.com/97696711/149471186-ba2ef583-9211-4b0e-a11f-5336ea33649f.png">)
-
-
-
+![Example]<img width="1280" alt="install VSCode" src="https://user-images.githubusercontent.com/97696711/149471270-fed275b5-a1d5-413f-8ac2-808859adfda3.png">
