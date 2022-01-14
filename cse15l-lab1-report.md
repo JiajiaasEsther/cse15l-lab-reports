@@ -1,8 +1,9 @@
 
-# The introduction of logging into a course-specific account.
----
+# Lab1 Report
+## Introduction of how to log into a course-specific account.
 
-## What we are going to do:
+
+**What we are going to do:**
 
 * Installing VScode
 * Remotely Connecting
@@ -11,7 +12,9 @@
 * Setting an SSH Key
 * Optimizing Remote Running
 
-[UCSD TRITONLINK](https://students.ucsd.edu/)
+---
+**Install VSCode**
 
-# hellp
+Visit [Visual Studio Code](https://code.visualstudio.com/) website.
+
 
