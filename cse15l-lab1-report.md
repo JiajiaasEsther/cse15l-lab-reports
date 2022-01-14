@@ -16,5 +16,29 @@
 **Install VSCode**
 
 Visit [Visual Studio Code](https://code.visualstudio.com/) website. Follow the instructions to download and install it on your computer. And it looks like this.
+
 <img width="1280" alt="install VSCode" src="https://user-images.githubusercontent.com/97696711/149471270-fed275b5-a1d5-413f-8ac2-808859adfda3.png">
+
+**Remotely Connecting**
+
+If you are on Windows: intall [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Then look up your [course-specific account for CSE15L](https://sdacs.ucsd.edu/~icc/index.php).
+
+After getting your account, you can open a terminal in VSCode on the left top side.
+
+<img width="533" alt="螢幕截圖 2022-01-14 上午12 16 50" src="https://user-images.githubusercontent.com/97696711/149474448-2da5783b-e8cb-4cc1-b5c8-001a06daa606.png">
+
+Tpye in your account as command. It may looks like this.
+
+`$ ssh cs15lwi22akl@ieng6.ucsd.edu`
+
+Then it might get a message like this:
+
+`⤇ ssh cs15lwi22akl@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+
+Then type `yes`, press enter and type your password. It will show something like the following.
+
+<img width="619" alt="螢幕截圖 2022-01-06 上午11 50 21" src="https://user-images.githubusercontent.com/97696711/149476052-9d98e5aa-7611-4b44-b221-2d37764fd3ba.png">
 
