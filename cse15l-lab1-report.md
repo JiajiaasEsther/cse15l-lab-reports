@@ -3,6 +3,7 @@
 ---
 
 What we are going to do:
+
 *Installing VScode
 *Remotely Connecting
 *Trying Some Commands
