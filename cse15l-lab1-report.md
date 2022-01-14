@@ -156,11 +156,34 @@ You will see something similar like this.
 
 *Note:*\
 <img width="965" alt="螢幕截圖 2022-01-14 上午2 22 10" src="https://user-images.githubusercontent.com/97696711/149499994-97e86b2d-5581-44de-9317-47e2a8c241f6.png">
-<img width="971" alt="螢幕截圖 2022-01-14 上午2 22 26" src="https://user-images.githubusercontent.com/97696711/149500017-d0951d25-5135-4883-9712-67c99f0d099e.png">
+<img width="971" alt="螢幕截圖 2022-01-14 上午2 31 55" src="https://user-images.githubusercontent.com/97696711/149501420-55e25255-d3ec-4b6b-9185-6cd1dbc9b0bf.png">
+<img width="973" alt="螢幕截圖 2022-01-14 上午2 33 09" src="https://user-images.githubusercontent.com/97696711/149501565-1e69e1e9-cce4-4b73-95ba-bcfb39dc81f1.png">
+
 
 *Note:*\
 This time I used around a minute to editing and running WhereAmI.java, so it is about a minute is saved each time.
 
 ## Optimizing Remote Running
 
+You can use what you’ve learned to come up with the most pleasant process you can for making a local edit to WhereAmI.java, then copying it to the remote server and running it.
+
+For example,log in and list the home directory on the remote server.
+```
+$ ssh cs15lwi22awl@ieng6.ucsd.edu "ls"
+```
+
+Or use semicolons to run multiple commands on the same line in most terminals.
+
+```
+$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+```
+And these are something you may see.
+<img width="971" alt="螢幕截圖 2022-01-14 上午2 36 11" src="https://user-images.githubusercontent.com/97696711/149501939-54d869d6-bc3c-4421-bdd0-fece00824cd5.png">
+
+<img width="967" alt="螢幕截圖 2022-01-14 上午2 37 52" src="https://user-images.githubusercontent.com/97696711/149502174-4007bce4-1661-4203-892d-388789b2838d.png">
+
+*Note:*\
+I tried to run the command after editing and saving to under 10 total keystrokes. And the total time is under 30 second.
+
+I think those are all about the introduction and notes about `how to log into a course-specific account` in my lab1 report. Hopefully, this can help. :)
 
