@@ -38,7 +38,24 @@ The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 
-Then type `yes`, press enter and type your password. It will show something like the following.
+Then type `yes`, press enter and type your password. It will show something like this.
 
 <img width="619" alt="螢幕截圖 2022-01-06 上午11 50 21" src="https://user-images.githubusercontent.com/97696711/149476052-9d98e5aa-7611-4b44-b221-2d37764fd3ba.png">
+
+Now, your terminal is connected to the computer in the CSE basement. 
+
+**Trying Some Commands**
+
+You can try to run some commands like `cd`, `cd ~`, `ls -lat`, `pwd`, `mkdir`, `cp` and so on.
+
+<img width="609" alt="螢幕截圖 2022-01-06 上午11 56 55" src="https://user-images.githubusercontent.com/97696711/149479749-15f33365-ebcd-4848-9b66-e9c755196f28.png">
+
+Ls -a: list all files in current directory 
+
+Ls -lat: list the details of all files  in current directory 
+
+When you want to log out of the remote server, you can `Ctrl-D` and Run the command `exit`.
+
+**Moving Files with scp**
+
 
