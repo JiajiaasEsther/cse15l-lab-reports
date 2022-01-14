@@ -1,7 +1,7 @@
 
 ## The introduction of logging into a course-specific account on ieng6.
 ---
-*Here we go:::
+- List
 
 just wanna share a link of ucsd*
 DMDMD
