@@ -13,13 +13,13 @@
 * Optimizing Remote Running
 
 ---
-**Install VSCode**
+## Install VSCode
 
 Visit [Visual Studio Code](https://code.visualstudio.com/) website. Follow the instructions to download and install it on your computer. And it looks like this.
 
 <img width="1280" alt="install VSCode" src="https://user-images.githubusercontent.com/97696711/149471270-fed275b5-a1d5-413f-8ac2-808859adfda3.png">
 
-**Remotely Connecting**
+## Remotely Connecting
 
 If you are on Windows: intall [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Then look up your [course-specific account for CSE15L](https://sdacs.ucsd.edu/~icc/index.php).
 
@@ -29,22 +29,28 @@ After getting your account, you can open a terminal in VSCode on the left top si
 
 Tpye in your account as command. It may looks like this.
 
+
 `$ ssh cs15lwi22akl@ieng6.ucsd.edu`
 
 Then it might get a message like this:
 
-`⤇ ssh cs15lwi22akl@ieng6.ucsd.edu
+```
+⤇ ssh cs15lwi22akl@ieng6.ucsd.edu<img width="947" alt="螢幕截圖 2022-01-14 上午1 10 11" src="https://user-images.githubusercontent.com/97696711/149489472-598cb9c1-1a6f-4462-bedb-cc1fd5a3793f.png">
+
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
 
 Then type `yes`, press enter and type your password. It will show something like this.
 
 <img width="619" alt="螢幕截圖 2022-01-06 上午11 50 21" src="https://user-images.githubusercontent.com/97696711/149476052-9d98e5aa-7611-4b44-b221-2d37764fd3ba.png">
 
+When I logged in my account, I could see the history of last login time. Though the lab course with sharing, actually I found that the `Hostname` is same for everyone, but the `Time`, `#Users`, `Load`, `Averages` are different from everyone. I think that is because the number of people that connect the server is real-time changes.
+
 Now, your terminal is connected to the computer in the CSE basement. 
 
-**Trying Some Commands**
+## Trying Some Commands
 
 You can try to run some commands like `cd`, `cd ~`, `ls -lat`, `pwd`, `mkdir`, `cp` and so on.
 
@@ -56,6 +62,41 @@ Ls -lat: list the details of all files  in current directory
 
 When you want to log out of the remote server, you can `Ctrl-D` and Run the command `exit`.
 
-**Moving Files with scp**
+## Moving Files with scp
+
+Right now we will try to copy a file from your computer to a remote computer. The command is called `scp`. Frist we creat a file on your computer called `WhereAmI.java` and put the following contents into it:
+
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+
+
+Run it using `javac` and `java` on your computer. And you may see something like this.
+
+<img width="367" alt="螢幕截圖 2022-01-14 上午12 52 25" src="https://user-images.githubusercontent.com/97696711/149486795-ed8f48fb-5ddf-43b4-a251-04201209f021.png">
+
+Then in the terminal run this command. (with your username）
+
+```
+scp WhereAmI.java cs15lwi22akl@ieng6.ucsd.edu:~/
+```
+and
+
+```
+ssh cs15lwi22akl@ieng6.ucsd.edu
+```
+
+It will show something like this.
+
+<img width="947" alt="螢幕截圖 2022-01-14 上午1 10 11" src="https://user-images.githubusercontent.com/97696711/149489528-03a69b03-1c4d-40cf-ba99-018910b69c7d.png">
+
+It is differently based on the OS you're using. The second thime we are running on the remote server.
 
 
