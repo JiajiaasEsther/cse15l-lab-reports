@@ -54,7 +54,20 @@ Now, your terminal is connected to the computer in the CSE basement.
 
 ## Trying Some Commands
 
-You can try to run some commands like `cd`, `cd ~`, `ls -lat`, `pwd`, `mkdir`, `cp` and so on.
+You can try to run some commands like `cd`, `cd ~`, `ls -lat`, `pwd`, `mkdir`, `cp` and so on.\
+Here are some specific useful commands we can try directly:
+```
+cd ~
+```
+```
+cd
+```
+```
+ls -lat
+```
+```
+ls -a
+```
 
 <img width="609" alt="螢幕截圖 2022-01-06 上午11 56 55" src="https://user-images.githubusercontent.com/97696711/149479749-15f33365-ebcd-4848-9b66-e9c755196f28.png">
 
