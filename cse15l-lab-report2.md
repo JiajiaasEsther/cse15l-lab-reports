@@ -18,7 +18,11 @@ Here are some example bugs with the progress and results during fixing.
 
 ## 2. Second test
 * **Code change**
+
+First way:
 <img width="1218" alt="螢幕截圖 2022-01-28 上午5 56 31" src="https://user-images.githubusercontent.com/97696711/151559119-b54b5d34-477c-4347-b482-8455f23be609.png">
+Second way:
+<img width="1215" alt="螢幕截圖 2022-01-28 下午2 45 03" src="https://user-images.githubusercontent.com/97696711/151632016-06e7ece1-691e-48d7-a4bb-ce5cb1dc1001.png">
 
 * **[Link](https://github.com/JiajiaasEsther/markdown-parse-main/blob/b49450e78fdfff7a6c470f131d92b0e5525bf8b6/FirstDebug.md) of the test file for the failure-inducing input**
 
@@ -28,6 +32,7 @@ Here are some example bugs with the progress and results during fixing.
 
 * **Descributions of the relationship between the bug, the symptom, and the failure-inducing input**
 
+The reason why this program caseus failure is there is a extra "()" after the last closed parantheses. Then it will get into the loop because the next.OpenBraket will keep coming out with -1. And the program will keep running unitl out of memory. There are two ways we can debug here. First, the simplest way is make the markdown point of closeParen be the last one of ")" that show on the test file. Then it won't bring it into the infinite loop again. And the second way to deal with it is add a condition that break the loop when the nextOpenBraket eqauls to -1. Then it will returns and not run again.
 
 
 ## 3. Third test
@@ -43,5 +48,5 @@ Here are some example bugs with the progress and results during fixing.
 
 * **Descributions of the relationship between the bug, the symptom, and the failure-inducing input**
 
-The reason why this program fail is there is a "()" between the first open parantheses and last closed parantheses, it causes the extra letters shows after the last closed paranthese. Then, the nextOpenBraket keep coming out with integer -1, it causes the program witha infinite loop until out of the memory. In order to debug, we can similarly add a condition that when the interger nextOpenBraket equals -1, we are going to break this loop. and return. Then, the program won't be keep runing and not stop.
+The reason why this program fail is there is a "()" between the first open parantheses and last closed parantheses, it causes the extra letters shows after the last closed paranthese. Then, the nextOpenBraket keep coming out with integer -1, which is quite similar to the second test. It causes the program witha infinite loop until out of the memory. In order to debug, we can similarly add a condition that when the interger nextOpenBraket equals -1, we are going to break this loop. and return. Then, the program won't be keep runing and not stop.
 
