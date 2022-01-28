@@ -16,14 +16,21 @@ https://github.com/JiajiaasEsther/markdown-parse-main/blob/f1cdb5dab2108f370a2fe
 
 ## 2. Second test
 * Code change
+
+<img width="1218" alt="螢幕截圖 2022-01-28 上午5 56 31" src="https://user-images.githubusercontent.com/97696711/151559119-b54b5d34-477c-4347-b482-8455f23be609.png">
+
 * Test file for the failure-inducing input
 
-* https://github.com/JiajiaasEsther/markdown-parse-main/blob/745e474d514a5d7b2a76dbce782e434943831e5b/test-file3.md
+https://github.com/JiajiaasEsther/markdown-parse-main/blob/b49450e78fdfff7a6c470f131d92b0e5525bf8b6/FirstDebug.md
 
 * Symptom of the failure-inducing input
- <img width="726" alt="螢幕截圖 2022-01-28 上午5 33 18" src="https://user-images.githubusercontent.com/97696711/151555666-d60e3ef4-f91f-444e-8ea5-14551e54715c.png">
+
+<img width="600" alt="螢幕截圖 2022-01-28 上午5 49 15" src="https://user-images.githubusercontent.com/97696711/151558055-2393426a-6324-4286-883c-23561e85044e.png">
 
 * Descributions of the relationship between the bug, the symptom, and the failure-inducing input
+
+<img width="568" alt="螢幕截圖 2022-01-28 上午5 51 50" src="https://user-images.githubusercontent.com/97696711/151558428-264e7cfc-5092-4cb8-87d6-28346da87faf.png">
+
 
 
 
@@ -32,4 +39,4 @@ https://github.com/JiajiaasEsther/markdown-parse-main/blob/f1cdb5dab2108f370a2fe
 * Test file for the failure-inducing input
 * Symptom of the failure-inducing input
 * Descributions of the relationship between the bug, the symptom, and the failure-inducing input
-*
+
