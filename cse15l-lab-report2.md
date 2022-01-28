@@ -14,7 +14,7 @@ Here are some example bugs with the progress and results during fixing.
 <img width="705" alt="螢幕截圖 2022-01-28 下午2 58 50" src="https://user-images.githubusercontent.com/97696711/151633130-6d1f0237-57bc-4acd-8f21-9f64f3bb2749.png">
 
 * **Descributions of the relationship between the bug, the symptom, and the failure-inducing input**
-
+The failure in this example is becuase the inex of string is out of bounds. Simily it is because the string is too long. So what I did here is use for loop and if to split the line. After spliting them seprately, I am going to check if there are any bracket or parantheses exist in the line. Then if exists, the program will continue running, or it will print out the line. After all these, the program won't have bug becuase of the string index out of bounds, also it can print out the context successfully.
 
 ## 2. Second test
 * **Code change**
