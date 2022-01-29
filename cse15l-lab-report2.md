@@ -44,6 +44,7 @@ The reason why this program caseus failure is there is a extra "()" after the la
 
 
 * **Symptom of the failure-inducing input**
+
 <img width="605" alt="螢幕截圖 2022-01-28 下午2 39 59" src="https://user-images.githubusercontent.com/97696711/151631298-d2930f30-5546-43ff-91e0-a526d0b7da77.png">
 
 * **Descributions of the relationship between the bug, the symptom, and the failure-inducing input**
