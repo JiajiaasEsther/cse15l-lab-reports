@@ -53,7 +53,9 @@ Try this command:
 
 The different is, this command is to copy the specific file in your directory, instead of copying the whole directory.
 
-That's it, we finish copying.
+That's it, we finish copying.\
+
+
 
 ## *Log into the ieng6 account after copying, then compile and run*
 As above we logged in the ieng6 account, then we are going to compile and run the test.\
@@ -71,5 +73,4 @@ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.jav
 java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
 ```
 Then, it should comes with success.\
-<img width="204" alt="螢幕截圖 2022-02-11 下午3 04 15" src="https://user-images.githubusercontent.com/97696711/153682414-284bae7f-69a0-4947-bf14-486b062e462f.png">
-
+<img width="552" alt="螢幕截圖 2022-02-11 下午3 08 05" src="https://user-images.githubusercontent.com/97696711/153682722-b789c713-08fa-4e8d-b1c8-a8ee8b21b35a.png">
