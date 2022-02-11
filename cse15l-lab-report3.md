@@ -12,7 +12,6 @@ To fulfill this requirement, we can command `scp -r`.
 ```
 <img width="342" alt="螢幕截圖 2022-02-11 下午2 14 21" src="https://user-images.githubusercontent.com/97696711/153677795-96749903-f191-4f71-b9c3-c0f59610a271.png"><img width="554" alt="螢幕截圖 2022-02-11 下午3 06 32" src="https://user-images.githubusercontent.com/97696711/153682585-532706f5-d9cc-4a6f-acd6-f23d761b74be.png">
 
-
 ```
 ⤇ ls
 ```
