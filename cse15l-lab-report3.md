@@ -42,7 +42,7 @@ The `~/markdown-parse` tells `scp` to create the `markdown-parse` directory on t
 Note that when we do this it copies not just the files we see with `ls`, but all of the files in `.git` as well.
 
 
-3.5. Addition, you can have more control over what gets copied. 
+3.5. Addition, we can have more control over what gets copied. 
 
 Try this command:
 ```
