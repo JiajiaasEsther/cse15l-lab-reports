@@ -5,7 +5,7 @@ What should we do when we want to copy our whole directory to the server?\
 To fulfill this requirement, we can command `scp -r`. 
 
 ## *Copy whole markdown-parse directory to ieng account*
-1. Find that the working directory is our checkout of markdown-parse
+**1. Find that the working directory is our checkout of markdown-parse**
 
 ```
 ⤇ pwd
@@ -18,10 +18,9 @@ To fulfill this requirement, we can command `scp -r`.
 ⤇ ls
 ```
 <img width="431" alt="螢幕截圖 2022-02-11 下午2 14 33" src="https://user-images.githubusercontent.com/97696711/153677809-47c904de-b249-48d7-a560-5e1ebe2364f2.png">
-.\
 
 
-2. Use `scp` to copy the directory(represented by `.`) to the remote server
+**2. Use `scp` to copy the directory(represented by `.`) to the remote server**
 ```
 $ scp -r . cs15lwi22@ieng6.ucsd.edu:~/markdown-parse
 ```
@@ -30,9 +29,9 @@ The `.` is the source, and is the current directory.\
 The `~/markdown-parse` tells `scp` to create the `markdown-parse` directory on the remote server (if it doesn’t exist), and then copy the contents of this directory recursively there.
 
 <img width="575" alt="螢幕截圖 2022-02-11 下午2 19 55" src="https://user-images.githubusercontent.com/97696711/153678397-dddca543-3d8b-4ead-9458-aac0facb2de2.png">
-.\
 
-3. Then we can log into the server with `ssh` and see all of our files there in a directory called `markdown-parse`
+
+**3. Then we can log into the server with `ssh` and see all of our files there in a directory called `markdown-parse`**
 
 ```
 ⤇ ssh cs15lwi22@ieng6.ucsd.edu
@@ -42,10 +41,10 @@ The `~/markdown-parse` tells `scp` to create the `markdown-parse` directory on t
 ```
 <img width="535" alt="螢幕截圖 2022-02-11 下午2 29 47" src="https://user-images.githubusercontent.com/97696711/153679433-30b4fba1-0cd5-47f1-b8c5-17838038ef9b.png">
 
-Note that when we do this it copies not just the files we see with `ls`, but all of the files in `.git` as well.\
-.\
+Note that when we do this it copies not just the files we see with `ls`, but all of the files in `.git` as well.
 
-3.5. Addition, we can have more control over what gets copied. 
+
+**3.5. Addition, we can have more control over what gets copied**
 
 Try this command:
 ```
