@@ -5,14 +5,71 @@ What should we do when we want to copy our whole directory to the server?\
 To fulfill this requirement, we can command `scp -r`. 
 
 ## *Copy whole markdown-parse directory to ieng account*
-* Find that the working directory is our checkout of markdown-parse
+1. Find that the working directory is our checkout of markdown-parse
 
 ```
 ⤇ pwd
 ```
-<img width="342" alt="螢幕截圖 2022-02-11 下午2 14 21" src="https://user-images.githubusercontent.com/97696711/153677795-96749903-f191-4f71-b9c3-c0f59610a271.png">
+<img width="342" alt="螢幕截圖 2022-02-11 下午2 14 21" src="https://user-images.githubusercontent.com/97696711/153677795-96749903-f191-4f71-b9c3-c0f59610a271.png"><img width="554" alt="螢幕截圖 2022-02-11 下午3 06 32" src="https://user-images.githubusercontent.com/97696711/153682585-532706f5-d9cc-4a6f-acd6-f23d761b74be.png">
+
 
 ```
 ⤇ ls
 ```
 <img width="431" alt="螢幕截圖 2022-02-11 下午2 14 33" src="https://user-images.githubusercontent.com/97696711/153677809-47c904de-b249-48d7-a560-5e1ebe2364f2.png">
+
+\
+2. Use `scp` to copy the directory(represented by `.`) to the remote server
+```
+$ scp -r . cs15lwi22@ieng6.ucsd.edu:~/markdown-parse
+```
+Here, `-r` option tells `scp` to work recursively.\
+The `.` is the source, and is the current directory.\
+The `~/markdown-parse` tells `scp` to create the `markdown-parse` directory on the remote server (if it doesn’t exist), and then copy the contents of this directory recursively there.
+
+<img width="575" alt="螢幕截圖 2022-02-11 下午2 19 55" src="https://user-images.githubusercontent.com/97696711/153678397-dddca543-3d8b-4ead-9458-aac0facb2de2.png">
+
+\
+3. Then we can log into the server with `ssh` and see all of our files there in a directory called `markdown-parse`
+
+```
+⤇ ssh cs15lwi22@ieng6.ucsd.edu
+```
+```
+[cs15lwi22@ieng6-201]:~:99$ ls markdown-parse
+```
+<img width="535" alt="螢幕截圖 2022-02-11 下午2 29 47" src="https://user-images.githubusercontent.com/97696711/153679433-30b4fba1-0cd5-47f1-b8c5-17838038ef9b.png">
+
+Note that when we do this it copies not just the files we see with `ls`, but all of the files in `.git` as well.
+
+\
+3.5. However, you can have more control over what gets copied. 
+
+Try this command:
+```
+⤇ scp -r *.java *.md lib/ cs15lwi22@ieng6.ucsd.edu:markdown-parse
+```
+<img width="551" alt="螢幕截圖 2022-02-11 下午2 34 22" src="https://user-images.githubusercontent.com/97696711/153679850-d3e87c98-95eb-430c-9a5e-053984b72e30.png">
+
+The different is, this command is to copy the specific file in your directory, instead of copying the whole directory.
+
+That's it, we finish copying.
+
+## *Log into the ieng6 account after copying, then compile and run*
+As above we logged in the ieng6 account, then we are going to compile and run the test.\
+Remind:
+log in with the following code.
+```
+<img width="529" alt="螢幕截圖 2022-02-11 下午3 07 03" src="https://user-images.githubusercontent.com/97696711/153682629-14c873c9-f882-4f0e-83ee-89d94cabd7eb.png">
+
+ssh cs15lwi22@ieng6.ucsd.edu
+```
+Compile using the following code.
+```
+javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java
+
+java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+```
+Then, it should comes with success.\
+<img width="204" alt="螢幕截圖 2022-02-11 下午3 04 15" src="https://user-images.githubusercontent.com/97696711/153682414-284bae7f-69a0-4947-bf14-486b062e462f.png">
+
