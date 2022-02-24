@@ -1,5 +1,5 @@
 
-# Lab1 Report
+# Lab Report1
 ## Introduction of how to log into a course-specific account.
 
 
