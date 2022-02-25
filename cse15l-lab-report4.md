@@ -92,6 +92,7 @@ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnit
 * 
 * 
 * For snippet 3, I used more than 10 lines of code change to make my program work.\
+
 So actually in snippet 3, my failure is because of the string is too long that out of bounds. What I did here is I use a for loop and if to split the line. After spliting them seprately, I checked if there are any bracket or parantheses exist in the line. Then check if exists to determine the program will continue running or print out the line. After all these, the program won’t have bug becuase of the string index out of bounds, also it can print out the context successfully.\
 
 The reason why it would be more involved change is because I seprate the string. So actually I didn't make a super huge change for the current code, I just add for loop and if, and change all the 'markdown.' to 'line' becuase I break a long string into two, so the name of the string also changed. So if we need to change all the 'markdown.', that makes the change can't be small.
