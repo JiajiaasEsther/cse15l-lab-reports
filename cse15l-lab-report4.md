@@ -88,4 +88,10 @@ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnit
 
 <img width="682" alt="螢幕截圖 2022-02-24 下午10 47 57" src="https://user-images.githubusercontent.com/97696711/155668049-ea3e9f49-aff1-4484-abf0-063e873ea01c.png">
 
-## Answer the questions
+## Answer questions
+* 
+* 
+* For snippet 3, I used more than 10 lines of code change to make my program work.\
+So actually in snippet 3 
+
+* <img width="938" alt="螢幕截圖 2022-02-25 上午1 14 13" src="https://user-images.githubusercontent.com/97696711/155694329-97e2e6a3-66a0-48b8-8693-b34b591488be.png">
