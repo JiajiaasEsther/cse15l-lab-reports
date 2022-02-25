@@ -87,3 +87,5 @@ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnit
 * For **the implemention I reviewed**, it is deeply sad that none of the three tests passed it.
 
 <img width="682" alt="螢幕截圖 2022-02-24 下午10 47 57" src="https://user-images.githubusercontent.com/97696711/155668049-ea3e9f49-aff1-4484-abf0-063e873ea01c.png">
+
+## Answer the questions
