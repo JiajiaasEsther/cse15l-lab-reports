@@ -15,6 +15,7 @@ In this lab, we have three different snippets and two different codes to test ea
 [`code]`](ucsd.edu)`
 
 ```
+
 **Snippet 2**
 ```
 [a [nested link](a.com)](b.com)
@@ -66,11 +67,11 @@ Snippet 3:
 ## Turn them into tests
 To turn it into a test, we can do it like this 
 
-<img width="699" alt="螢幕截圖 2022-02-25 上午3 56 24" src="https://user-images.githubusercontent.com/97696711/155711299-87ca55e5-317a-4422-b4a2-d112c39dba0d.png">
+<img width="1161" alt="螢幕截圖 2022-02-25 下午2 20 09" src="https://user-images.githubusercontent.com/97696711/155810888-65c0de65-ee9e-4422-b1e6-eb31849bf091.png">
 
 Or we can also do it like this
 
-<img width="712" alt="螢幕截圖 2022-02-25 上午3 55 07" src="https://user-images.githubusercontent.com/97696711/155711168-f6101673-62d4-4f19-a423-b7c1a295cc18.png">
+<img width="1091" alt="螢幕截圖 2022-02-25 下午2 17 47" src="https://user-images.githubusercontent.com/97696711/155810657-11e0d00d-eaee-4d2f-b631-4ae10f6d6ae6.png">
 
 ## Run the code
 Then, run this code at the command line using these two commands:
@@ -80,13 +81,13 @@ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.jav
 java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
 ```
 
-* For **my implement**, the snippet 3 failed, the snippet 1 and snippet 2 success.
+* For **my implement**, sadly, all three snippets failed.
  
-<img width="600" alt="螢幕截圖 2022-02-25 上午3 58 29" src="https://user-images.githubusercontent.com/97696711/155711550-72646277-a699-4ff2-a9c0-1367d4e463eb.png">
+ <img width="784" alt="螢幕截圖 2022-02-25 下午2 22 09" src="https://user-images.githubusercontent.com/97696711/155811087-a457c9af-cc13-4ef4-9347-4715073e1a63.png">
 
-* For **the implemention I reviewed**, the snippet 2 failed, the snippet 1 and snippet 3 success.
+* For **the implemention I reviewed**, it is deeply sad that none of the snippets passed.
 
-<img width="606" alt="螢幕截圖 2022-02-25 上午3 57 16" src="https://user-images.githubusercontent.com/97696711/155711398-d3d9b42e-6e48-4036-8e93-0854a5590a8c.png">
+<img width="779" alt="螢幕截圖 2022-02-25 下午2 24 29" src="https://user-images.githubusercontent.com/97696711/155811307-03ad126d-549c-457c-8a12-f84513d774e3.png">
 
 ## Answer questions
 * 
