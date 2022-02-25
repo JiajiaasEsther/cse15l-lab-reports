@@ -66,11 +66,11 @@ Snippet 3:
 ## Turn them into tests
 To turn it into a test, we can do it like this 
 
-<img width="1077" alt="螢幕截圖 2022-02-25 上午3 38 32" src="https://user-images.githubusercontent.com/97696711/155709105-e9556314-7adb-400e-b845-d80616ac04b4.png">
+<img width="712" alt="螢幕截圖 2022-02-25 上午3 55 07" src="https://user-images.githubusercontent.com/97696711/155711168-f6101673-62d4-4f19-a423-b7c1a295cc18.png">
 
 Or we can also do it like this
 
-<img width="1106" alt="螢幕截圖 2022-02-25 上午3 46 25" src="https://user-images.githubusercontent.com/97696711/155710093-ea25048d-b087-48f8-8ce8-6d49473fde33.png">
+<img width="699" alt="螢幕截圖 2022-02-25 上午3 56 24" src="https://user-images.githubusercontent.com/97696711/155711299-87ca55e5-317a-4422-b4a2-d112c39dba0d.png">
 
 ## Run the code
 Then, run this code at the command line using these two commands:
@@ -80,13 +80,13 @@ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.jav
 java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
 ```
 
-* For **my implement**, the snippet 2 and snippet 3 failed, and the snippet 1 success.
+* For **my implement**, the snippet 2 failed, the snippet 1 and snippet 3 success.
+* 
+<img width="600" alt="螢幕截圖 2022-02-25 上午3 58 29" src="https://user-images.githubusercontent.com/97696711/155711550-72646277-a699-4ff2-a9c0-1367d4e463eb.png">
 
- <img width="640" alt="螢幕截圖 2022-02-25 上午3 40 10" src="https://user-images.githubusercontent.com/97696711/155709282-2cc7c4d8-5e23-4d39-801d-60e480ec7a23.png">
-
-* For **the implemention I reviewed**, the snippet 2 and snippet 3 failed, and the snippet 1 success.
-
-<img width="790" alt="螢幕截圖 2022-02-25 上午3 42 36" src="https://user-images.githubusercontent.com/97696711/155709543-da57c739-5b19-4ada-b797-cf6e7c8a309a.png">
+* For **the implemention I reviewed**, the snippet 2 failed, the snippet 1 and snippet 3 success.
+* 
+<img width="606" alt="螢幕截圖 2022-02-25 上午3 57 16" src="https://user-images.githubusercontent.com/97696711/155711398-d3d9b42e-6e48-4036-8e93-0854a5590a8c.png">
 
 ## Answer questions
 * 
