@@ -66,11 +66,11 @@ Snippet 3:
 ## Turn them into tests
 To turn it into a test, we can do it like this 
 
-<img width="712" alt="螢幕截圖 2022-02-25 上午3 55 07" src="https://user-images.githubusercontent.com/97696711/155711168-f6101673-62d4-4f19-a423-b7c1a295cc18.png">
+<img width="699" alt="螢幕截圖 2022-02-25 上午3 56 24" src="https://user-images.githubusercontent.com/97696711/155711299-87ca55e5-317a-4422-b4a2-d112c39dba0d.png">
 
 Or we can also do it like this
 
-<img width="699" alt="螢幕截圖 2022-02-25 上午3 56 24" src="https://user-images.githubusercontent.com/97696711/155711299-87ca55e5-317a-4422-b4a2-d112c39dba0d.png">
+<img width="712" alt="螢幕截圖 2022-02-25 上午3 55 07" src="https://user-images.githubusercontent.com/97696711/155711168-f6101673-62d4-4f19-a423-b7c1a295cc18.png">
 
 ## Run the code
 Then, run this code at the command line using these two commands:
@@ -82,11 +82,11 @@ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnit
 
 * For **my implement**, the snippet 2 failed, the snippet 1 and snippet 3 success.
  
-<img width="606" alt="螢幕截圖 2022-02-25 上午3 57 16" src="https://user-images.githubusercontent.com/97696711/155711398-d3d9b42e-6e48-4036-8e93-0854a5590a8c.png">
+<img width="600" alt="螢幕截圖 2022-02-25 上午3 58 29" src="https://user-images.githubusercontent.com/97696711/155711550-72646277-a699-4ff2-a9c0-1367d4e463eb.png">
 
 * For **the implemention I reviewed**, the snippet 2 failed, the snippet 1 and snippet 3 success.
 
-<img width="600" alt="螢幕截圖 2022-02-25 上午3 58 29" src="https://user-images.githubusercontent.com/97696711/155711550-72646277-a699-4ff2-a9c0-1367d4e463eb.png">
+<img width="606" alt="螢幕截圖 2022-02-25 上午3 57 16" src="https://user-images.githubusercontent.com/97696711/155711398-d3d9b42e-6e48-4036-8e93-0854a5590a8c.png">
 
 ## Answer questions
 * 
