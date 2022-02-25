@@ -93,9 +93,9 @@ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnit
 <img width="779" alt="螢幕截圖 2022-02-25 下午2 24 29" src="https://user-images.githubusercontent.com/97696711/155811307-03ad126d-549c-457c-8a12-f84513d774e3.png">
 
 ## Answer questions
-* 
-* 
-* For snippet 3, I used more than 10 lines of code change to make my program work.\
+* For snippet 1, I don't think so that I can make a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks. As we saw, compare the output and expect, my `openParen` and `CloseBracket` are all in the different positions. The code of mine actually get the strings in the parentheses, but the expect output actually print more of the string in the brackets. So if we want to make the program works, we need to first change the position that we need to print out, then, we can see that there is backticks and extra bracket between the string, we need to find way to change the code to determine what to print when we see backticks or extra bracket. And, we can see there is an extra `(url.com)` shows up, so we need extra change to make this happen. All of these problems together, I don't think it can finish code change in 10 lines, it probably will be a huge project for chaning it.
+* For snippet 2,
+* For snippet 3, I used more than 10 lines of code change to make my program work.
 
 The reason why it would be more involved change is because I seprate the long string, so that it won't happen *outofbounds*. So actually I didn't make a super huge change for the current code, I just add for loop and if, and change all the 'markdown.' to 'line' becuase I break a long string into two, so the name of the string also changed. So if we need to change all the 'markdown.', that makes the change can't be small.
 
