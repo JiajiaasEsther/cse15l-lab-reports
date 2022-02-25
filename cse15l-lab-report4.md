@@ -79,11 +79,11 @@ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.jav
 java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
 ```
 
-* For **my implement**, the snippet1 and snippet2 failed, and the snippet3 success.
+* For **my implement**, the snippet 1 and snippet 2 failed, and the snippet 3 success.
 
 <img width="704" alt="螢幕截圖 2022-02-25 上午3 17 01" src="https://user-images.githubusercontent.com/97696711/155706333-5c25b83d-6f1e-45a5-8430-06b56bf213c4.png">
 
-* For **the implemention I reviewed**, the snippet1 and snippet3 failed, and the snippet2 success.
+* For **the implemention I reviewed**, the snippet 1 and snippet 3 failed, and the snippet 2 success.
 
 <img width="715" alt="螢幕截圖 2022-02-25 上午3 12 25" src="https://user-images.githubusercontent.com/97696711/155705693-9bb6fc37-527a-4163-8e4f-22efff6a505a.png">
 
