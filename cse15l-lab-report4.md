@@ -3,7 +3,6 @@
 It is unknown if the test works in different codes.\
 In this lab, we have three different snippets and two different codes to test each of them and see how it work. Also, we can see if we can find a way to debug and make it work.
 
-
 **Snippet 1**
 ```
 [a link`](url.com)
@@ -81,11 +80,11 @@ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.jav
 java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
 ```
 
-* For **my implement**, sadly, all three snippets failed.
+* For **[my implement](https://github.com/JiajiaasEsther/markdown-parse3)**, sadly, all three snippets failed.
  
  <img width="784" alt="螢幕截圖 2022-02-25 下午2 22 09" src="https://user-images.githubusercontent.com/97696711/155811087-a457c9af-cc13-4ef4-9347-4715073e1a63.png">
 
-* For **the implemention I reviewed**, it is deeply sad that none of the snippets passed.
+* For **[the implemention I reviewed](https://github.com/JiajiaasEsther/markdown-parse4)**, it is deeply sad that none of the snippets passed.
 
 <img width="779" alt="螢幕截圖 2022-02-25 下午2 24 29" src="https://user-images.githubusercontent.com/97696711/155811307-03ad126d-549c-457c-8a12-f84513d774e3.png">
 
