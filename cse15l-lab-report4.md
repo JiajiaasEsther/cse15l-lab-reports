@@ -66,10 +66,11 @@ Snippet 3:
 ## Turn them into tests
 To turn it into a test, we can do it like this 
 
-<img width="618" alt="螢幕截圖 2022-02-25 上午3 07 39" src="https://user-images.githubusercontent.com/97696711/155705352-e418ef5e-9877-4063-98ae-432faba13169.png">
+<img width="1077" alt="螢幕截圖 2022-02-25 上午3 38 32" src="https://user-images.githubusercontent.com/97696711/155709105-e9556314-7adb-400e-b845-d80616ac04b4.png">
 
 Or we can also do it like this
 
+<img width="1106" alt="螢幕截圖 2022-02-25 上午3 46 25" src="https://user-images.githubusercontent.com/97696711/155710093-ea25048d-b087-48f8-8ce8-6d49473fde33.png">
 
 ## Run the code
 Then, run this code at the command line using these two commands:
@@ -79,12 +80,13 @@ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.jav
 java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
 ```
 
-* For **my implement**, the snippet 1 and snippet 3 failed, and the snippet 2 success.
-<img width="715" alt="螢幕截圖 2022-02-25 上午3 12 25" src="https://user-images.githubusercontent.com/97696711/155705693-9bb6fc37-527a-4163-8e4f-22efff6a505a.png">
+* For **my implement**, the snippet 2 and snippet 3 failed, and the snippet 1 success.
 
-* For **the implemention I reviewed**, the snippet 1 and snippet 2 failed, and the snippet 3 success.
+ <img width="640" alt="螢幕截圖 2022-02-25 上午3 40 10" src="https://user-images.githubusercontent.com/97696711/155709282-2cc7c4d8-5e23-4d39-801d-60e480ec7a23.png">
 
-<img width="704" alt="螢幕截圖 2022-02-25 上午3 17 01" src="https://user-images.githubusercontent.com/97696711/155706333-5c25b83d-6f1e-45a5-8430-06b56bf213c4.png">
+* For **the implemention I reviewed**, the snippet 2 and snippet 3 failed, and the snippet 1 success.
+
+<img width="790" alt="螢幕截圖 2022-02-25 上午3 42 36" src="https://user-images.githubusercontent.com/97696711/155709543-da57c739-5b19-4ada-b797-cf6e7c8a309a.png">
 
 ## Answer questions
 * 
