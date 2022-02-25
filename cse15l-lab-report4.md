@@ -103,7 +103,7 @@ So here is what I try:
 
 <img width="938" alt="螢幕截圖 2022-02-25 上午1 14 13" src="https://user-images.githubusercontent.com/97696711/155694329-97e2e6a3-66a0-48b8-8693-b34b591488be.png">
 
-And I used more than 10 lines of code just make my program work.\
+But I used more than 10 lines of code just make my program work.
 
 ## Hope you enjoy.:)
 In this section, we turn snippets into tests and run tests. We learn and discuss what will happen and how to change the codes to make the tests work. When we do coding, it is really useful and important to know how many change we approxiately need to make to make the program work. I believe it is a good skill for us to master.
