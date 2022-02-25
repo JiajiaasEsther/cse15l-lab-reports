@@ -69,4 +69,5 @@ To turn it into a test, we can do it like this
 <img width="545" alt="螢幕截圖 2022-02-24 下午10 12 29" src="https://user-images.githubusercontent.com/97696711/155664007-97a763b3-4d54-4884-9cff-6fff6fe6e46e.png">
 
 Or we can also do it like this
+
 <img width="535" alt="螢幕截圖 2022-02-24 下午10 15 34" src="https://user-images.githubusercontent.com/97696711/155664315-0ab16e6d-783b-4c1b-9086-07dd95f0f908.png">
