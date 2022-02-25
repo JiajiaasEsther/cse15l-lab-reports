@@ -81,12 +81,12 @@ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnit
 ```
 
 * For **my implement**, the snippet 2 failed, the snippet 1 and snippet 3 success.
-* 
-<img width="600" alt="螢幕截圖 2022-02-25 上午3 58 29" src="https://user-images.githubusercontent.com/97696711/155711550-72646277-a699-4ff2-a9c0-1367d4e463eb.png">
+ 
+<img width="606" alt="螢幕截圖 2022-02-25 上午3 57 16" src="https://user-images.githubusercontent.com/97696711/155711398-d3d9b42e-6e48-4036-8e93-0854a5590a8c.png">
 
 * For **the implemention I reviewed**, the snippet 2 failed, the snippet 1 and snippet 3 success.
-* 
-<img width="606" alt="螢幕截圖 2022-02-25 上午3 57 16" src="https://user-images.githubusercontent.com/97696711/155711398-d3d9b42e-6e48-4036-8e93-0854a5590a8c.png">
+
+<img width="600" alt="螢幕截圖 2022-02-25 上午3 58 29" src="https://user-images.githubusercontent.com/97696711/155711550-72646277-a699-4ff2-a9c0-1367d4e463eb.png">
 
 ## Answer questions
 * 
