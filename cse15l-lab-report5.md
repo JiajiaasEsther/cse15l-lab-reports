@@ -2,7 +2,7 @@
 ## Find different bugs and discuss
 
 Different tests always comes with different bugs as results.\
-Today we are going to learn how to find the diffferent results in the tests and analyze them.
+Today we are going to learn how to find the diffferent results in the tests and analyze the results of them.
 
 * **Find the tests with different results**
 
