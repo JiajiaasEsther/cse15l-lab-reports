@@ -5,6 +5,7 @@ Different tests always comes with different bugs as results.\
 Today we are going to learn how to find the diffferent results in the tests and analyze them.
 
 * **Find the tests with different results**
+
 First I get my implementation. I didn't use the `diff` on the result of running a bash. I found there is getLinks method with other helper methods that I can use in implementation. So I just simply compare two tests by running each `getLinks` method in Markdown-Parse. Here is my code.
 
 
