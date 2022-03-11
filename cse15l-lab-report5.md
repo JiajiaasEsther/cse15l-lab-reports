@@ -11,5 +11,6 @@ First I get my implementation. I didn't use the `diff` on the result of running 
 ```
 java MarkdownParse ./test-files/test name.md
 ```
+Then I ran it for each test, and it printed out the results differently.
 
 <img width="619" alt="螢幕截圖 2022-03-11 下午2 16 13" src="https://user-images.githubusercontent.com/97696711/157979946-d4583259-e656-45e0-838a-fdfa0f00a7c8.png">
