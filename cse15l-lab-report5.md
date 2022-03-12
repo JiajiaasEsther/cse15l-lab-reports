@@ -19,7 +19,6 @@ And it will shows us the differences between them.
 ## Disscuss ecah test
 
 ## Test file 15
-* **Output**
 
 This is the test file with
 
@@ -45,7 +44,6 @@ According to [CommonMark](https://spec.commonmark.org/dingus/), it should print 
 
 Obviously, both our implementations are wrong.
 
-* **Discuss the bug**
 
 For my implementation, it came out with a extra `[]` and two asterisks. I think it not only because the close parenthesis get the wrong spot, but also it might have some problems at the open bracket. So that it came out with extra an `\`. And it may went the for loop again to, then got an extra parenthesis mistakely after that.
 
@@ -55,7 +53,6 @@ I think to deal with this bug, it needs to fix the open bracket spot. And to the
 
 
 ## Test file 17
-* **Output**
 
 This is the test file with
 
@@ -81,7 +78,14 @@ According to [CommonMark](https://spec.commonmark.org/dingus/), it should printe
 
 Again, both our implementations are incorrect.
 
-* **Discuss the bug**
 
+For week9's implementation, it printed out different spots and miss `\`. This will skip the following character after the slash. So when a backslash comes before the open bracket, it will skip the following contents. So I think here has the bug
 
+<img width="464" alt="螢幕截圖 2022-03-11 下午5 26 49" src="https://user-images.githubusercontent.com/97696711/157998138-e0ab71a6-2d96-47b7-a413-64e0d895676c.png">
+
+It should add some lines of program to find where the `open parenthesis` is, and if it came out with `\`, we should also check if we found all the open parenthesis and close parenthesis before and after the `\`, so that we can get all contents.
+
+and also it came out with the extra `close parenthesis`, so I think here about the spot of close parenthesis, can change to `for loop` and `if` to add extra condition to deal with it.
+
+<img width="600" alt="螢幕截圖 2022-03-11 下午5 02 21" src="https://user-images.githubusercontent.com/97696711/157998412-b7dfe9e6-a4df-40cf-8c0a-26430c62ebb2.png">
 
