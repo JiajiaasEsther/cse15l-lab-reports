@@ -47,7 +47,11 @@ Obviously, both our implementations are wrong.
 
 * **Discuss the bug**
 
-For my implementation, I think
+For my implementation, it came out with a extra `[]` and two asterisks. I think it not only because the close parenthesis get the wrong spot, but also it might have some problems at the open bracket. So that it came out with extra an `\`. And it may went the for loop again to, then got an extra parenthesis mistakely after that.
+
+<img width="600" alt="螢幕截圖 2022-03-11 下午5 02 21" src="https://user-images.githubusercontent.com/97696711/157997062-d0d194a4-1db4-40eb-9b2a-7c02673b94a1.png">
+
+I think to deal with this bug, it needs to fix the open bracket spot. And to the extra parenthesis, I think it should add a line of code (`if`) to make sure the spots of `open parenthesis` and `cloase parenthesis` and return it correctly.
 
 
 ## Test file 17
