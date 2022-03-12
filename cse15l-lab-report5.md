@@ -31,7 +31,7 @@ And the week9's implementation printed out with
 []
 ```
 
-but my implentation printed out with 
+and my implentation printed out with 
 
 ```
 \\*emphasis*
