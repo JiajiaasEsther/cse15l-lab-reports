@@ -26,6 +26,13 @@ This is the test file with
 And the week9's implementation printed out with `[]`, but my implentation printed out with `\\*emphasis*
 []`
 
+According to [CommonMark](https://spec.commonmark.org/dingus/), it printed out with
+<img width="135" alt="螢幕截圖 2022-03-11 下午4 42 03" src="https://user-images.githubusercontent.com/97696711/157996013-2e94d4ce-af2e-49b5-affd-3f7ce6dc604d.png">
+
+
+Obviously, both our implementations are wrong.
+
+
 
 **2. Test file 17**
 This is the test file with
@@ -33,7 +40,12 @@ This is the test file with
 <img width="161" alt="螢幕截圖 2022-03-11 下午4 22 46" src="https://user-images.githubusercontent.com/97696711/157995080-e9c8f619-89f7-43da-b54c-5e48cad3c687.png">
 
 And the week9's implementation printed out with `[/foo]`, but my implentation printed out with 
-`
+```
 `` \[\` ``
 []
-`
+```
+
+According to [CommonMark](https://spec.commonmark.org/dingus/), it printed out with
+
+
+<img width="174" alt="螢幕截圖 2022-03-11 下午4 38 57" src="https://user-images.githubusercontent.com/97696711/157995867-dc3e57aa-b049-490d-8674-5387251caaad.png">
