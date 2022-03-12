@@ -64,7 +64,7 @@ This is the test file with
 The week9's implementation printed out with 
 
 ```
-[/foo]
+[]
 ```
 
 and my implentation printed out with 
