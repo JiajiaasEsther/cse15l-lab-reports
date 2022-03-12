@@ -23,11 +23,7 @@ And it will shows us the differences between them.
 
 * **Output**
 
-This is the test file with
-
-<img width="127" alt="螢幕截圖 2022-03-11 下午4 46 28" src="https://user-images.githubusercontent.com/97696711/157996285-47cd64b5-5a5f-430d-babc-2c413f59c3c2.png">
-
-And the week9's implementation printed out with 
+The week9's implementation printed out with 
 
 ```
 []
@@ -59,10 +55,6 @@ I think to deal with this bug, it needs to fix the open bracket spot. And to the
 ## Test file 17
 
 * **Output**
-
-This is the test file with
-
-<img width="161" alt="螢幕截圖 2022-03-11 下午4 22 46" src="https://user-images.githubusercontent.com/97696711/157995080-e9c8f619-89f7-43da-b54c-5e48cad3c687.png">
 
 The week9's implementation printed out with 
 
