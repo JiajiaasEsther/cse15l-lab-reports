@@ -47,7 +47,7 @@ According to [CommonMark](https://spec.commonmark.org/dingus/), it should print 
 
 Obviously, both our implementations are wrong.
 
-* **Discuss**
+* **Discussion**
 
 For my implementation, it came out with a extra `[]` and two asterisks. I think it not only because the close parenthesis get the wrong spot, but also it might have some problems at the open bracket. So that it came out with extra an `\`. And it may went the for loop again to, then got an extra parenthesis mistakely after that.
 
@@ -84,7 +84,7 @@ According to [CommonMark](https://spec.commonmark.org/dingus/), it should printe
 
 Again, both our implementations are incorrect.
 
-* **Discuss**
+* **Discussion**
 
 For week9's implementation, it printed out different spots and miss `\`. This will skip the following character after the slash. So when a backslash comes before the open bracket, it will skip the following contents. So I think here has the bug
 
