@@ -21,6 +21,8 @@ And it will shows us the differences between them.
 
 ## Test file 15
 
+* **Output**
+
 This is the test file with
 
 <img width="127" alt="螢幕截圖 2022-03-11 下午4 46 28" src="https://user-images.githubusercontent.com/97696711/157996285-47cd64b5-5a5f-430d-babc-2c413f59c3c2.png">
@@ -45,6 +47,7 @@ According to [CommonMark](https://spec.commonmark.org/dingus/), it should print 
 
 Obviously, both our implementations are wrong.
 
+* **Discuss**
 
 For my implementation, it came out with a extra `[]` and two asterisks. I think it not only because the close parenthesis get the wrong spot, but also it might have some problems at the open bracket. So that it came out with extra an `\`. And it may went the for loop again to, then got an extra parenthesis mistakely after that.
 
@@ -54,6 +57,8 @@ I think to deal with this bug, it needs to fix the open bracket spot. And to the
 
 
 ## Test file 17
+
+* **Output**
 
 This is the test file with
 
@@ -79,6 +84,7 @@ According to [CommonMark](https://spec.commonmark.org/dingus/), it should printe
 
 Again, both our implementations are incorrect.
 
+* **Discuss**
 
 For week9's implementation, it printed out different spots and miss `\`. This will skip the following character after the slash. So when a backslash comes before the open bracket, it will skip the following contents. So I think here has the bug
 
