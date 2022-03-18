@@ -19,62 +19,37 @@ And it will shows us the differences between them.
 
 ## Disscuss ecah test
 
-## Test file 15
+## Test file 567
 
 * **Output**
 
-The week9's implementation printed out with 
+The week9's implementation printed out with empty bracket `[]`, and my implentation printed out with `[not a Link]`, which is not suppose to printed.
 
-```
-[]
-```
+According to visual studio preview, the only valid link shoule be
 
-and my implentation printed out with 
+`/url1`.<img width="705" alt="螢幕截圖 2022-03-18 下午4 11 51" src="https://user-images.githubusercontent.com/97696711/159095804-a83b7d3d-906e-4222-a6d9-343138cf9d1d.png">
 
-```
-\\*emphasis*
-[]
-```
-
-According to [CommonMark](https://spec.commonmark.org/dingus/), it should print out with
-
-<img width="135" alt="螢幕截圖 2022-03-11 下午4 42 03" src="https://user-images.githubusercontent.com/97696711/157996013-2e94d4ce-af2e-49b5-affd-3f7ce6dc604d.png">
-
-
-Obviously, both our implementations are wrong.
+So, both our implementations are wrong.
 
 * **Discussion**
 
-For my implementation, it came out with a extra `[]` and two asterisks. I think it not only because the close parenthesis get the wrong spot, but also it might have some problems at the open bracket. So that it came out with extra an `\`. And it may went the for loop again to, then got an extra parenthesis mistakely after that.
+For my implementation, it came out with `[not a link]`, instead of `[/url]`. I think it is because there is not any program checking if there is any space between the parentese, and it doesn't check for colon in the md file. So these might cause the program print the invalid link or ignore the link.
 
-<img width="600" alt="螢幕截圖 2022-03-11 下午5 02 21" src="https://user-images.githubusercontent.com/97696711/157997062-d0d194a4-1db4-40eb-9b2a-7c02673b94a1.png">
+<img width="702" alt="螢幕截圖 2022-03-18 下午4 31 29" src="https://user-images.githubusercontent.com/97696711/159096787-5198c635-6fb4-4bc5-816b-8d260314e698.png">
 
-I think to deal with this bug, it needs to fix the open bracket spot. And to the extra parenthesis, I think it should add a line of code (`if`) to make sure the spots of `open parenthesis` and `cloase parenthesis` and return it correctly.
+To deal with this bug, I think we can add two instance variables, as 'Indicator' of `space` and `colon`, then we can use 'indexOf` to find the index of space after the open parentheses in the while loop. We can check if the index of space appear between the open parentheses and close parentheses, then we can ignore the content and treat as a invalid link. Also, we can find the index of colon using `indexOf`. Then use `if` to see if the colon with no space in the link is after the close bracket and open parentheses. If so, then we can treat the link after the colon as a valid link.
 
-
-## Test file 17
+## Test file 573
 
 * **Output**
 
-The week9's implementation printed out with 
+The week9's implementation printed out with `[/url]`, and my implentation printed out with empty bracket`[]`.
 
-```
-[]
-```
+According to visual studio preview, there is no valid link, so it should printed out nothing.  
 
-and my implentation printed out with 
+<img width="627" alt="螢幕截圖 2022-03-18 下午4 11 09" src="https://user-images.githubusercontent.com/97696711/159095762-518d1265-7d97-4d8e-8996-37aafd658d0f.png">
 
-```
-`` \[\` ``
-[]
-```
-
-According to [CommonMark](https://spec.commonmark.org/dingus/), it should printedout with
-
-
-<img width="174" alt="螢幕截圖 2022-03-11 下午4 38 57" src="https://user-images.githubusercontent.com/97696711/157995867-dc3e57aa-b049-490d-8674-5387251caaad.png">
-
-Again, both our implementations are incorrect.
+So, lab9's implementations is incorrect.
 
 * **Discussion**
 
