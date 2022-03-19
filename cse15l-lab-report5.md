@@ -28,7 +28,7 @@ According to visual studio preview, there is no valid link, so it should printed
 
 <img width="627" alt="螢幕截圖 2022-03-18 下午4 11 09" src="https://user-images.githubusercontent.com/97696711/159095762-518d1265-7d97-4d8e-8996-37aafd658d0f.png">
 
-So, lab9's implementations is incorrect.
+So, week9's implementations is incorrect.
 
 * **Discussion**
 
