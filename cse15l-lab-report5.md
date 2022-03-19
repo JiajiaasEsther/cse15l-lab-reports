@@ -18,27 +18,6 @@ And it will shows us the differences between them.
 
 
 ## Disscuss ecah test
-
-## Test file 567
-
-* **Output**
-
-The week9's implementation printed out with empty bracket `[]`, and my implentation printed out with `[not a Link]`, which is not suppose to printed.
-
-According to visual studio preview, the only valid link shoule be
-
-`/url1`.<img width="705" alt="螢幕截圖 2022-03-18 下午4 11 51" src="https://user-images.githubusercontent.com/97696711/159095804-a83b7d3d-906e-4222-a6d9-343138cf9d1d.png">
-
-So, both our implementations are wrong.
-
-* **Discussion**
-
-For my implementation, it came out with `[not a link]`, instead of `[/url]`. I think it is because there is not any program checking if there is any space between the parentese, and it doesn't check for colon in the md file. So these might cause the program print the invalid link or ignore the link.
-
-<img width="702" alt="螢幕截圖 2022-03-18 下午4 31 29" src="https://user-images.githubusercontent.com/97696711/159096787-5198c635-6fb4-4bc5-816b-8d260314e698.png">
-
-To deal with this bug, I think we can add two instance variables, as 'Indicator' of `space` and `colon`, then we can use 'indexOf` to find the index of space after the open parentheses in the while loop. We can check if the index of space appear between the open parentheses and close parentheses, then we can ignore the content and treat as a invalid link. Also, we can find the index of colon using `indexOf`. Then use `if` to see if the colon with no space in the link is after the close bracket and open parentheses. If so, then we can treat the link after the colon as a valid link.
-
 ## Test file 573
 
 * **Output**
@@ -53,13 +32,32 @@ So, lab9's implementations is incorrect.
 
 * **Discussion**
 
-For week9's implementation, it printed out different spots and miss `\`. This will skip the following character after the slash. So when a backslash comes before the open bracket, it will skip the following contents. So I think here has the bug
+For week9's implementation, it printed out with `[/url]`, instead of `[]`. I think it is because of we didn't check if it is an image or a link.
 
-<img width="464" alt="螢幕截圖 2022-03-11 下午5 26 49" src="https://user-images.githubusercontent.com/97696711/157998138-e0ab71a6-2d96-47b7-a413-64e0d895676c.png">
+<img width="691" alt="螢幕截圖 2022-03-18 下午4 52 37" src="https://user-images.githubusercontent.com/97696711/159097872-ad0fdebf-877a-49f1-b85b-680217ef3c47.png">
 
-It should add some lines of program to find where the `open parenthesis` is, and if it came out with `\`, we should also check if we found all the open parenthesis and close parenthesis before and after the `\`, so that we can get all contents.
+To deal with this bug, I think we can hava a 'Indicator' of `image` to check if it is an image or not. We can use `if`, if there is a `!` before the open bracket, and coming with close brakek, open parentheses, then the content inside the bracket should be the name of the image. Also, we can implenment the statement using `indexOf` to see if there is any image inside the bracket.
 
-and also it came out with the extra `close parenthesis`, so I think here about the spot of close parenthesis, can change to `for loop` and `if` to add extra condition to deal with it.
+## Test file 567
 
-<img width="600" alt="螢幕截圖 2022-03-11 下午5 02 21" src="https://user-images.githubusercontent.com/97696711/157998412-b7dfe9e6-a4df-40cf-8c0a-26430c62ebb2.png">
+* **Output**
+
+The week9's implementation printed out with empty bracket `[]`, and my implentation printed out with `[not a Link]`, which is not suppose to printed.
+
+According to visual studio preview, the only valid link shoule be`/url1`.
+
+<img width="705" alt="螢幕截圖 2022-03-18 下午4 11 51" src="https://user-images.githubusercontent.com/97696711/159095804-a83b7d3d-906e-4222-a6d9-343138cf9d1d.png">
+
+So, both our implementations are wrong.
+
+* **Discussion**
+
+For my implementation, it came out with `[not a link]`, instead of `[/url1]`. I think it is because there is not any program checking if there is any space between the parentese, and it doesn't check for colon in the md file. So these might cause the program print the invalid link or ignore the link.
+
+<img width="702" alt="螢幕截圖 2022-03-18 下午4 31 29" src="https://user-images.githubusercontent.com/97696711/159096787-5198c635-6fb4-4bc5-816b-8d260314e698.png">
+
+To deal with this bug, I think we can add two instance variables, as 'Indicator' of `space` and `colon`, then we can use 'indexOf` to find the index of space after the open parentheses in the while loop. We can check if the index of space appear between the open parentheses and close parentheses, then we can ignore the content and treat as a invalid link. Also, we can find the index of colon using `indexOf`. Then use `if` to see if the colon with no space in the link is after the close bracket and open parentheses. If so, then we can treat the link after the colon as a valid link.
+
+## Hope you enjoy.:)
+In this section, we learn and discuss what the differences and try to debug. And it is really useful and important to know how to find the differences between different codes, and debug to make the program work correctly. I believe it is a important skill for us to master it.
 
